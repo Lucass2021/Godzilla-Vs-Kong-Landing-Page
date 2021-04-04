@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:"Open Sans", sans-serif;
+}
+
+body{
+  background-image: url('./assets/bgDark.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
+}
+
+.main{
+    position:relative;
+    left:25%;
+    padding:10px;
+    top:100px;
+}
+
+h1{
+    color:white;
+    font-weight: 700;
+    margin-top:60px;
+    font-size:40px;
+    letter-spacing: 2px;
+}
+
+.about{
+   margin-top: 20px;
+   margin-bottom:10px; 
+   color:white;
+   font-weight:500;
+   font-size:30px;
+   letter-spacing: 2px;
+}
+
+p{
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.movieData{
+    color:white;
+    letter-spacing:2px;
+    padding:5px;
+}
+
+.movieContent{
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+.movieData span{
+    font-weight: 400;
+    color:#eee;
+}
+
+.trailer{
+    position:relative;
+    left:10%;
+    bottom:300px;
+}
+
+.trailer button{
+    color:white;
+    background: #444444;
+    padding:10px 30px;
+    border-radius:20px;
+    border:none;
+    font-size:20px;
+    font-weight:600;
+
+    position:relative;
+    top:10px;
+    right:15px;
+
+    max-width: 250px;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.trailer button:hover{
+    background:red;
+    cursor:pointer;
+    transition: .5s;
+}
+
+
+
+@media (max-width:991px){
+body{
+    background-image: url('./assets/bgquery.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+    .main{
+        position:relative;
+        top:-50px;
+        left:0;
+        margin: 0px 50px;
+    }
+
+    h1{
+        font-size:30px;
+        position: relative;
+        text-align:center;
+        font-weight: 800;
+    }
+
+    .about{
+        position:relative;
+        text-align:center;
+        font-weight:600;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .movieContent{
+font-size: 1em;
+    }
+
+    .trailer{
+        position:relative;
+        bottom: 40px;
+        left: 0;
+        margin:0px 100px;
+        align-items:center;
+    }
+}
