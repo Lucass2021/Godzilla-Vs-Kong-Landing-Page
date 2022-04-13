@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./git/capa.jpg"/>
+    <img src="./git/capa.jpeg"/>
 </h1>
 
 # Summary
